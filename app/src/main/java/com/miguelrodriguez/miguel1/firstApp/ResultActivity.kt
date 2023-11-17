@@ -12,7 +12,7 @@ class ResultActivity : AppCompatActivity() {
 
 
         val tvResult=findViewById<TextView>(R.id.tvResult)
-        val name:String=intent.extras!!.getString("EXTRA_NAME").toString()
+        val name:String=intent.extras!!.getString("edadUsuario").toString()
         tvResult.text="Hola $name"
 
 
