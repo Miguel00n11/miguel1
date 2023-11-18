@@ -11,14 +11,21 @@
         android:id="@+id/btnSaludar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saludar"
         android:layout_gravity="center"
-        />
+        android:text="Saludar" />
+
     <Button
         android:id="@+id/btnIMCApp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Saludar"
         android:layout_gravity="center"
-        />
+        android:text="IMC CALCULATOR" />
+
+    <Button
+        android:id="@+id/btnToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="ToDo App" />
 </LinearLayout>
