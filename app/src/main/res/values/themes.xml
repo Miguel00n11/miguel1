@@ -28,6 +28,12 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="ToDoSubtitle">
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/todo_subtitle_text</item>
+        <item name="android:layout_marginHorizontal">32dp</item>
+    </style>
+
 
 
 </resources>
